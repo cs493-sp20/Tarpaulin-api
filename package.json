@@ -1,0 +1,28 @@
+{
+  "name": "tarpaulin-api",
+  "version": "1.0.0",
+  "description": "CS-493 Final Assignment",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs493-sp20/Tarpaulin-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs493-sp20/Tarpaulin-api/issues"
+  },
+  "homepage": "https://github.com/cs493-sp20/Tarpaulin-api#readme"
+}
