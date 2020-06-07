@@ -1,10 +1,13 @@
+require('dotenv').config()
 const express = require('express');
+const { optionalAuthentication } = require('./lib/auth')
 
 const api = require('./api');
 
 const app = express();
 const port = process.env.PORT || 8000;
 
+app.use(optionalAuthentication);
 app.use(express.json());
 
 
